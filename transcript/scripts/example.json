@@ -1,0 +1,34 @@
+{
+  "response_id":"b6ffb957-68a6-4d4f-b480-b0d1da884ae9",
+  "member_id":"1",
+  "group_id":"103",
+  "quiz_id":"380e5aad-ed59-4d9e-89d5-675e624a7655",
+  "quiz_version":"1.2",
+  "question_id":"c740dfcb-d8d4-4515-8658-5cc5555c25dd",
+  "question_version":"1.0",
+  "question_major_version":"1",
+  "question_content_pos":49,
+  "question_present_pos":50,
+  "validated_minutes":94,
+  "question_state_history":{
+      "old":"correct",
+      "new":"correct"
+  },
+  "video_id":123,
+  "video_version":"1.0",
+  "responded_at":"2016-08-10T18:54:28.727Z",
+  "prompted_at":"2016-08-10T18:50:23.727Z",
+  "presented_at":"2016-08-10T18:52:05.727Z",
+  "response_provided":[
+      "3",
+      "4"
+  ],
+  "correct_response":[
+      "3",
+      "4"
+  ],
+  "is_correct":true,
+  "leaderboard_eligible":true,
+  "time_to_respond":143
+
+}

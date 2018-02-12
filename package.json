@@ -1,0 +1,11 @@
+{
+  "name": "poc-transcipt-store-ipfs",
+  "version": "1.0.0",
+  "description": "a way to store a transcript on ipfs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Matti Cone mcone@cbtnuggets.com",
+  "license": "ISC"
+}
