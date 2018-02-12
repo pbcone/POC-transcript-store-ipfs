@@ -15,8 +15,8 @@ To publish changes to IPNS
 ```$ ipfs name publish [HASH OF IPFS]```
 
 ## Versions
-Version 1.0 hash '/ipfs/QmVNyu5ccwWYHJgUhGo9toVgEWvGyNvWhVCZuwvcsLvA5k'
-<https://gateway.ipfs.io/ipfs/QmVNyu5ccwWYHJgUhGo9toVgEWvGyNvWhVCZuwvcsLvA5k>
-
 Version 1.1 hash '/ipfs/QmSLrB8WEW4cpd6uMvuFd6nhogoX71zp1t2iFTZBRaNJTK'
 <https://gateway.ipfs.io/ipfs/QmSLrB8WEW4cpd6uMvuFd6nhogoX71zp1t2iFTZBRaNJTK>
+
+Version 1.0 hash '/ipfs/QmVNyu5ccwWYHJgUhGo9toVgEWvGyNvWhVCZuwvcsLvA5k'
+<https://gateway.ipfs.io/ipfs/QmVNyu5ccwWYHJgUhGo9toVgEWvGyNvWhVCZuwvcsLvA5k>
