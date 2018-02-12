@@ -21,12 +21,27 @@ let transcriptEntree2 = {
   trainingSource:'FORD powerplant Detriot MI'
 }
 
+let transcriptEntree3 = {
+  transcriptId:'546sd5vJfsvaeav820r0v23',
+  userId:'4Gjdcs6jdeuv284gqjdcpo102',
+  trainingStartDate:'',
+  trainginCompletionDate:'',
+  verificationSignature:'',
+  title:'Flashy Blue Paint Job',
+  description:'Royal blue exterior paint to catch the eye of passerbys',
+  trainingSource:'FORD powerplant Detriot MI'
+}
+
 let transcriptCollection = {
   objectID:'5clka5846sdfCDljks080wef',
   userID:'4Gjdcs6jdeuv284gqjdcpo102',
   exposedStartDate: '',
   exposedEndDate:'',
-  attachedTranscripts : [transcriptEntree1, transcriptEntree2]
+  attachedTranscripts : [
+    transcriptEntree1,
+    transcriptEntree2,
+    transcriptEntree3
+  ]
 }
 
 let userData = {
@@ -49,19 +64,8 @@ function createTranscriptObject (transcript) {
 $(document).ready(function(){
     parsedUser = JSON.parse(JSON.stringify(userData))
     $('#header').prepend(parsedUser.firstName, ' ', parsedUser.lastName, 's ');
-    createTranscriptObject(transcriptEntree1);
-    createTranscriptObject(transcriptEntree2);
+
+    const map1= transcriptCollection.attachedTranscripts.map((transcriptItem) => {
+        createTranscriptObject(transcriptItem);
+    });
 });
-
-
-
-// let transcriptEntree = {
-//   transcriptId:'6548dihivKd46aJdv6',
-//   userId:'4Gjdcs6jdeuv284gqjdcpo102',
-//   trainingStartDate:'',
-//   trainginCompletionDate:'',
-//   verificationSignature:'',
-//   title:'',
-//   description:'',
-//   trainingSource:''
-// }
