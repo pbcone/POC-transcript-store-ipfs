@@ -1,4 +1,4 @@
-#POC-transcript-store-ipfs
+# POC-transcript-store-ipfs
 
 A proof of concept project to control serving a users transcript to third parties using a decentralized storage system
 
